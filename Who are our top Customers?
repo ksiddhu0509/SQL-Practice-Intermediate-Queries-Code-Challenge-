@@ -9,3 +9,17 @@ INNER JOIN Customers C ON O.CUSTOMERID=C.CUSTOMERID
 GROUP BY O.CUSTOMERID
 HAVING TotalSPend > 450
 ORDER BY TotalSpend DESC;
+
+9 rows
+-----------------------------------------------------
+| CUSTOMERID | FIRSTNAME | LASTNAME    | TOTALSPEND |
+-----------------------------------------------------
+| 100        | Blythe    | Leggan      | 687.75     |
+| 27         | Yves      | Dell'Abbate | 624.72     |
+| 39         | Oralla    | Dayer       | 600.70     |
+| 76         | Dyanna    | Fulger      | 528.80     |
+| 35         | Luciano   | Winton      | 522.78     |
+| 1          | Maggi     | Domney      | 472.82     |
+| 2          | Javier    | Dawks       | 469.75     |
+| 64         | Norby     | Sleight     | 460.83     |
+| 91         | Iver      | Stevensen   | 458.74     |
